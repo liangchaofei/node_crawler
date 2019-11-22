@@ -1,0 +1,33 @@
+{
+  "name": "node_crawler",
+  "version": "1.0.0",
+  "description": "node爬虫学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liangchaofei/node_crawler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liangchaofei/node_crawler/issues"
+  },
+  "homepage": "https://github.com/liangchaofei/node_crawler#readme",
+  "dependencies": {
+    "async": "^3.1.0",
+    "cheerio": "^1.0.0-rc.3",
+    "eventproxy": "^1.0.0",
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "superagent": "^5.1.0"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "superagent": "^5.1.0"
+  }
+}
